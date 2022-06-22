@@ -69,6 +69,16 @@
   width: 1200px;
 }
 
+.hero {
+  background-color: var(--primary-color);
+}
+.hero-titel {
+  color: #ffffff;
+  font-family: var(--main-font);
+  font-size: 44px;
+  padding: 200 452 280;
+}
+
 .wrapper {
   background-color: var(--secondary-color);
 }
