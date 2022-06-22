@@ -1,0 +1,80 @@
+:root {
+  --primary-color: #2f303a;
+  --secondary-color: #e5e5e5;
+  --accent-color: #2196f3;
+  --logo-font: "Raleway", sans-serif;
+  --main-font: "Roboto", sans-serif;
+  --main-text-color: #212121;
+  --minor-text-color: #757575;
+  --title-size: 36px;
+  --text-size: 14px;
+}
+
+.header {
+  background-color: var(--secondary-color);
+  padding: 24px 215px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 95px;
+  font-family: var(--logo-font);
+  color: #000000;
+  text-decoration: none;
+  width: 145px;
+}
+.accent {
+  color: var(--accent-color);
+}
+.list {
+  list-style: none;
+  font-size: 26px;
+}
+
+.navigation-lists {
+  display: flex;
+}
+.navigation-item {
+  margin: 50px;
+}
+
+.navigation-link {
+  color: var(--main-text-color);
+  text-decoration: none;
+  font-family: var(--main-font);
+  font-size: var(--text-size);
+}
+
+.navigation {
+  margin-right: 320px;
+  width: 295px;
+}
+
+.header-adres {
+  text-decoration: none;
+}
+
+.addres-link {
+  text-decoration: none;
+  color: var(--minor-text-color);
+  margin: 50px;
+}
+
+.addres-links {
+  display: flex;
+  font-family: var(--main-font);
+  font-size: 14px;
+  margin-right: 215px;
+  width: 1200px;
+}
+
+.wrapper {
+  background-color: var(--secondary-color);
+}
+.section {
+  width: 1170;
+  margin: 0;
+  background-color: var(--secondary-color);
+  padding: 94px 215px;
+}
